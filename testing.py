@@ -320,15 +320,25 @@ print(f"Solution: {result}")
 '''
 #######################################################################################################################################################
 
-# Challenge 7: Write a Python program that asks the user to input a list of numbers (you can decide whether they should be integers or floats). Once the # user is done entering numbers, the program should calculate and print the sum, average, maximum, and minimum of the numbers.
+# Challenge 7: Write a Python program that asks the user to input a list of numbers (you can decide whether they should be integers or floats). Once the user is done entering numbers, the program should calculate and print the sum, average, maximum, and minimum of the numbers.
 
 # Here's a breakdown of what you should do:
 
-# Input Numbers: Prompt the user to enter a series of numbers. You can ask them to enter the numbers separated by spaces or to enter each number one by # one, pressing enter between each one. You'll need to decide when the user is done entering numbers (e.g., they could enter a special character like # 'done' or press enter without typing a number).
+# Input Numbers: Prompt the user to enter a series of numbers. You can ask them to enter the numbers separated by spaces or to enter each number one by  one, pressing enter between each one. You'll need to decide when the user is done entering numbers (e.g., they could enter a special character like # 'done' or press enter without typing a number).
 
 # Store Numbers: You'll need to store the numbers the user inputs in a list so you can perform calculations on them later.
 
-# Calculate Sum, Average, Maximum, and Minimum: Once you have the list of numbers, calculate the sum, average (sum divided by the count of numbers), the # maximum number, and the minimum number. Python provides built-in functions like sum(), max(), and min() that you'll find useful.
+# Calculate Sum, Average, Maximum, and Minimum: Once you have the list of numbers, calculate the sum, average (sum divided by the count of numbers), the maximum number, and the minimum number. Python provides built-in functions like sum(), max(), and min() that you'll find useful.
 
 # Print Results: Finally, print out the results to the user
+
+print("Please enter a list of numbers: ")
+
+user_number_list = []
+
+user_number_entry = user_number_list.append(int(input()))
+
+sum_list = len(user_number_list)
+
+print(sum_list)
 
