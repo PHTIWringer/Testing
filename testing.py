@@ -1,26 +1,5 @@
 '''
-cents = int(input())
-
-quarters = cents // 25
-cents = cents % 25
-
-dimes = cents // 10
-cents = cents % 10
-
-nickels = cents // 5
-cents = cents % 5
-
-pennies = cents
-
-print("Change:")
-print("Q:", quarters)
-print("D:", dimes)
-print("N:", nickels)
-print("P:", pennies)
-
-###################################################################################################################################################
-
-# Challenge: Write a Python program that asks the user to input a number and then prints out a countdown from that number to 1.
+# Challenge 1: Write a Python program that asks the user to input a number and then prints out a countdown from that number to 1.
 
 # Here's what your program should do:
 
@@ -40,7 +19,7 @@ elif number < 0:
 
 #################################################################################################################################################
     
-# Challenge: Create a Python program that generates a list of 10 random numbers between 1 and 100 and then prints the list, the maximum number, and the minimum number.
+# Challenge 2: Create a Python program that generates a list of 10 random numbers between 1 and 100 and then prints the list, the maximum number, and the minimum number.
 
 # Here's a breakdown of what your program should do:
 
@@ -64,7 +43,7 @@ print(min(random_number_list))
 
 ##############################################################################################################################################
 
-# Challenge: Write a Python program that asks the user to input a string and then prints out the number of vowels and consonants in that string.
+# Challenge 3: Write a Python program that asks the user to input a string and then prints out the number of vowels and consonants in that string.
 
 # Here's a step-by-step breakdown of what your program should do:
 
@@ -103,7 +82,7 @@ print(f"There are {vowel} vowels and {consonant} consonants in: '{user_input}'."
 
 #######################################################################################################################################################
 
-# Challenge: Create a Python program that simulates a simple banking system. The program should allow users to create a new bank account with an initial # deposit, make deposits, make withdrawals, and check the account balance.
+# Challenge 4: Create a Python program that simulates a simple banking system. The program should allow users to create a new bank account with an initial # deposit, make deposits, make withdrawals, and check the account balance.
 
 # Here are the specific requirements:
 
@@ -172,7 +151,7 @@ while True:
 
 #######################################################################################################################################################
 
-# Challenge: Write a Python program that simulates a simple tic-tac-toe game for two players. The game should display the board in the console, take # turns for each player to input their moves, and check for a win or a tie after every move.
+# Challenge 5: Write a Python program that simulates a simple tic-tac-toe game for two players. The game should display the board in the console, take # turns for each player to input their moves, and check for a win or a tie after every move.
 
 # Here's a detailed breakdown:
 
@@ -244,7 +223,7 @@ while True:
 
 ########################################################################################################################################################
 
-# Challenge: Create a Python program that simulates a basic text-based adventure game. The player starts with an initial health of 100 and is in a room # with two doors: one leads to a room with a monster, and the other leads to a room with a treasure.
+# Challenge 6: Create a Python program that simulates a basic text-based adventure game. The player starts with an initial health of 100 and is in a room # with two doors: one leads to a room with a monster, and the other leads to a room with a treasure.
 
 # Here's a breakdown of what your program should do:
 
@@ -306,3 +285,14 @@ while True:
         find_treasure()
         break
 '''
+#######################################################################################################################################################
+
+# Challenge: Write a Python program that creates a simple calculator. The calculator should be able to perform basic arithmetic operations like addition, # subtraction, multiplication, and division based on user input.
+
+# Here's a step-by-step guide on how you can build this:
+
+# Prompt the User: Ask the user to enter two numbers and the operation they want to perform. The operations can be denoted by symbols (+, -, *, /) or # words (add, subtract, multiply, divide).
+
+# Perform the Operation: Based on the user's input, perform the corresponding arithmetic operation. You can use if-else statements to handle the different operations.
+
+# Display the Result: Show the result of the arithmetic operation to the user.
