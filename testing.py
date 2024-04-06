@@ -296,3 +296,23 @@ while True:
 # Perform the Operation: Based on the user's input, perform the corresponding arithmetic operation. You can use if-else statements to handle the different operations.
 
 # Display the Result: Show the result of the arithmetic operation to the user.
+
+number_one = float(input("Enter the first number: "))
+number_two = float(input("Enter the second number: "))
+operations = input("Choose the operation (+, -, *, /): ")
+
+if operations == '+':
+    result = number_one + number_two
+elif operations == '-':
+    result = number_one - number_two
+elif operations == '*':
+    result = number_one * number_two
+elif operations == '/':
+    if number_two != 0:
+        result = number_one / number_two
+    else:
+        result = "Error"
+else:
+    result = "Invalid operation selected."
+
+print(f"Solution: {result}")
