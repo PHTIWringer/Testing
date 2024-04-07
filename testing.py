@@ -317,7 +317,6 @@ else:
 
 print(f"Solution: {result}")
 
-'''
 #######################################################################################################################################################
 
 # Challenge 7: Write a Python program that asks the user to input a list of numbers (you can decide whether they should be integers or floats). Once the user is done entering numbers, the program should calculate and print the sum, average, maximum, and minimum of the numbers.
@@ -332,13 +331,32 @@ print(f"Solution: {result}")
 
 # Print Results: Finally, print out the results to the user
 
-print("Please enter a list of numbers: ")
+print("Please enter a list of numbers below.")
 
 user_number_list = []
 
-user_number_entry = user_number_list.append(int(input()))
+while True:
+    user_number = input("Your Number: ")
+    if user_number in ('', 'q', 'quit', 'e', 'end', 'exit'):
+        break
+    elif user_number.isdigit():
+        user_number_list.append(int(user_number))
+    else:
+        print('Invalid entry, please try again or press enter to end the list')
 
-sum_list = len(user_number_list)
+if user_number_list:
+    average = sum(user_number_list) / len(user_number_list)
+    print("Average:", average)
+else:
+    print("No numbers entered, so no average.")
 
-print(sum_list)
+print("Sum:", sum(user_number_list))
 
+if user_number_list:
+    print("Max:", max(user_number_list))
+    print("Min:", min(user_number_list))
+else:
+    print("No numbers entered, so no min or max.")
+
+'''
+#######################################################################################################################################################
