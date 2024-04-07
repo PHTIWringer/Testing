@@ -358,7 +358,7 @@ if user_number_list:
 else:
     print("No numbers entered, so no min or max.")
 
-'''
+
 #######################################################################################################################################################
 
 # Challenge 8: Write a Python program that converts a time given in hours and minutes into seconds. The program should ask the user to input hours and minutes separately, then calculate and print the total time in seconds.
@@ -371,3 +371,24 @@ else:
 
 # Display the Result: Show the user the total time in seconds.
 
+print("Please enter times in hours/minutes below seperately.")
+
+hours_num = int(input())
+minutes_num = int(input())
+seconds = 60
+
+if hours_num < 0:
+    print("Please enter a positive time")
+else:
+    hours_seconds = hours_num * (seconds * seconds)
+    print("Hours to Seconds: ", hours_seconds)
+if minutes_num < 0:
+    print("Please enter a postive time.")
+else:
+    minutes_seconds = minutes_num * seconds
+    print("Minutes to Seconds: ", minutes_seconds)
+    
+print(f"Total time in Seconds: ", hours_seconds + minutes_seconds)
+'''
+
+#######################################################################################################################################################
