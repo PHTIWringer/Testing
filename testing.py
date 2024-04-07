@@ -404,3 +404,11 @@ print(f"Total time in Seconds: ", hours_seconds + minutes_seconds)
 # Generate the Dictionary: Use a loop to create the dictionary. The loop should iterate through numbers from 1 to n, and for each number, it should add an entry to the dictionary where the key is the number and the value is the square of the number.
 
 # Print the Dictionary: Finally, print the dictionary to show the result to the user.
+
+entry_num = int(input("Please enter a postive number greater than 0."))
+
+if entry_num >= 1:
+    entry_num = int(input("Enter Number: "))
+else:
+    print("Error. Number must be greater than 0.")
+
