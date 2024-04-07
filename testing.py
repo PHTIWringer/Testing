@@ -392,3 +392,15 @@ print(f"Total time in Seconds: ", hours_seconds + minutes_seconds)
 '''
 
 #######################################################################################################################################################
+
+# Challenge 9: Write a Python program that generates a dictionary where the keys are numbers between 1 and n (inclusive) and the values are the squares of the keys. The program should ask the user for the number n and then print the generated dictionary.
+
+# For example, if the user enters 5, the output should be {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}.
+
+# Here are the steps to approach this challenge:
+
+# Get User Input: Ask the user to provide the number n. Ensure that you handle the input properly, converting it to an integer and checking that it's a positive number.
+
+# Generate the Dictionary: Use a loop to create the dictionary. The loop should iterate through numbers from 1 to n, and for each number, it should add an entry to the dictionary where the key is the number and the value is the square of the number.
+
+# Print the Dictionary: Finally, print the dictionary to show the result to the user.
