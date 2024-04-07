@@ -360,3 +360,14 @@ else:
 
 '''
 #######################################################################################################################################################
+
+# Challenge 8: Write a Python program that converts a time given in hours and minutes into seconds. The program should ask the user to input hours and minutes separately, then calculate and print the total time in seconds.
+
+# Here's a step-by-step guide to approach it:
+
+# Input Hours and Minutes: Prompt the user to enter hours and then minutes. You need to ensure that the input can be converted to an integer. You might also want to handle cases where the user enters negative numbers or non-numeric values.
+
+# Convert Time to Seconds: Once you have valid hours and minutes, convert the total time to seconds. Remember, there are 3600 seconds in an hour and 60 seconds in a minute.
+
+# Display the Result: Show the user the total time in seconds.
+
