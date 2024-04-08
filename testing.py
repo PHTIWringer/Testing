@@ -389,7 +389,7 @@ else:
     print("Minutes to Seconds: ", minutes_seconds)
     
 print(f"Total time in Seconds: ", hours_seconds + minutes_seconds)
-'''
+
 
 #######################################################################################################################################################
 
@@ -413,3 +413,20 @@ for i in range(1, n + 1):
     squares_dict[i] = i ** 2
 
 print(squares_dict)
+'''
+
+#######################################################################################################################################################
+
+# Challenge 10: Write a Python program to find the largest number in a list without using built-in functions like max().
+
+# Here are the steps you should follow:
+
+# Create a List: First, define a list of numbers. You can hardcode this list in your program. For example, numbers = [3, 6, 2, 8, 4, 10].
+
+# Initialize a Variable for the Largest Number: Create a variable to hold the largest number. You can initialize it with the first element of the list.
+
+# Loop Through the List: Use a loop to iterate through the list. Compare each number with the current largest number. If you find a number that's larger, update the variable to hold this new number.
+
+# Print the Largest Number: After the loop finishes, print out the largest number.
+
+
