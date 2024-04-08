@@ -413,7 +413,7 @@ for i in range(1, n + 1):
     squares_dict[i] = i ** 2
 
 print(squares_dict)
-'''
+
 
 #######################################################################################################################################################
 
@@ -441,3 +441,19 @@ def max_num(lst):
 maximum_num = max_num(numbers_list)
 
 print(maximum_num)
+'''
+
+#######################################################################################################################################################
+
+# Challenge 11: Write a Python program that finds the second largest number in a list. You should not use any built-in functions like sorted() or max(), and you should only iterate through the list once.
+
+# Here's how you can approach this:
+
+# Create a List: Define a list of numbers. For example, numbers = [10, 36, 54, 89, 12, 27].
+
+# Initialize Two Variables: Create two variables, one to hold the largest number and another to hold the second largest number. You can initialize them with the first element and the second element, but make sure to assign them correctly based on their value.
+
+# Loop Through the List: Iterate through the list starting from the second or third element (since you've already used the first one or two to initialize your variables). Compare each element with your largest and second largest numbers and update these variables as necessary.
+
+# Print the Result: After completing the loop, print out the second largest number.
+
