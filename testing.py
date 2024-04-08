@@ -475,7 +475,7 @@ def second_max(lst):
 
 num_two = second_max(numbers)
 print(num_two)
-'''
+
 
 #######################################################################################################################################################
 
@@ -515,3 +515,30 @@ while index2 < len(list2):
     index2 += 1
 
 print(merged_list)
+'''
+
+#######################################################################################################################################################
+
+# Challenge 13: Analyzing Sales Data
+
+# Imagine you're a data analyst, and you've been given a dataset of sales transactions. Your task is to analyze the data to find insights and help the sales team understand their performance.
+
+# The dataset is a list of dictionaries, where each dictionary represents a sales transaction. Each transaction includes the date, the product name, the number of units sold, and the price per unit.
+
+# Here's a sample dataset:
+
+sales_data = [
+    {"date": "2021-01-01", "product": "Widget", "quantity": 4, "price_per_item": 25},
+    {"date": "2021-01-01", "product": "Thingamajig", "quantity": 1, "price_per_item": 15},
+    {"date": "2021-01-02", "product": "Widget", "quantity": 2, "price_per_item": 25},
+    {"date": "2021-01-02", "product": "Thingamajig", "quantity": 5, "price_per_item": 15},
+    # Add more entries...
+]
+# Your challenge is to write a Python program that:
+
+# Calculates the total sales revenue: Add up the revenue from all transactions (quantity sold multiplied by the price per item).
+
+# Finds the best-selling product: Determine which product had the highest quantity sold.
+
+# Calculates sales revenue per day: Show how much revenue was earned each day.
+
