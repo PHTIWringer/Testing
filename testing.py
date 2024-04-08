@@ -405,10 +405,11 @@ print(f"Total time in Seconds: ", hours_seconds + minutes_seconds)
 
 # Print the Dictionary: Finally, print the dictionary to show the result to the user.
 
-entry_num = int(input("Please enter a postive number greater than 0."))
+n = int(input("Enter a number: "))
 
-if entry_num >= 1:
-    entry_num = int(input("Enter Number: "))
-else:
-    print("Error. Number must be greater than 0.")
+squares_dict = {}
 
+for i in range(1, n + 1):
+    squares_dict[i] = i ** 2
+
+print(squares_dict)
