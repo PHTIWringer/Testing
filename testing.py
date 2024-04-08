@@ -429,4 +429,15 @@ print(squares_dict)
 
 # Print the Largest Number: After the loop finishes, print out the largest number.
 
+numbers_list = [1, 4, 7, 42, -2, 54, 5, 89, 54, 100, -85, 25, 125]
 
+def max_num(lst):
+    largest_num = lst[0]
+    for i in lst:
+        if i > largest_num:
+            largest_num = i
+    return largest_num
+
+maximum_num = max_num(numbers_list)
+
+print(maximum_num)
