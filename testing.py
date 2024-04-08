@@ -441,7 +441,7 @@ def max_num(lst):
 maximum_num = max_num(numbers_list)
 
 print(maximum_num)
-'''
+
 
 #######################################################################################################################################################
 
@@ -475,3 +475,19 @@ def second_max(lst):
 
 num_two = second_max(numbers)
 print(num_two)
+'''
+
+#######################################################################################################################################################
+
+# Challenge 12: Write a Python program to merge two sorted lists into a single sorted list. You should not use any built-in Python sorting functions. The program should efficiently combine the two lists, maintaining the order, and then print the merged sorted list.
+
+# Here's a step-by-step guide to approach it:
+
+# Create Two Sorted Lists: Define two lists that are already sorted. For example, list1 = [1, 3, 5, 7] and list2 = [2, 4, 6, 8].
+
+# Initialize Pointers: Create pointers (indexes) for each list. These will track your position as you iterate through the lists.
+
+# Merge the Lists: Iterate through both lists simultaneously, comparing the elements at the current pointer position of each list. Append the smaller element to the merged list and move the pointer for that list. If one list is exhausted, append the remaining elements from the other list.
+
+# Print the Merged List: After the loop completes, the merged list should be a single sorted list containing all the elements from both input lists. Print this merged list.
+
