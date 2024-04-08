@@ -457,3 +457,21 @@ print(maximum_num)
 
 # Print the Result: After completing the loop, print out the second largest number.
 
+numbers = [1, 4, 7, 42, -2, 54, 5, 89, 54, 100, -85, 25, 125]
+
+def second_max(lst):
+    if lst[0] > lst[1]:
+        largest_num, second_large_num = lst[0], lst[1]
+    else:
+        largest_num, second_large_num = lst[1], lst[0]
+
+    for i in lst[2:]:
+        if i > largest_num:
+            second_large_num, largest_num = largest_num, i
+        elif largest_num > i > second_large_num:
+            second_large_num = i
+
+    return second_large_num
+
+num_two = second_max(numbers)
+print(num_two)
