@@ -491,3 +491,27 @@ print(num_two)
 
 # Print the Merged List: After the loop completes, the merged list should be a single sorted list containing all the elements from both input lists. Print this merged list.
 
+list1 = [1, 3, 5, 7, 9]
+list2 = [2, 4, 6, 8, 10]
+
+merged_list = []
+index1 = 0
+index2 = 0
+
+while index1 < len(list1) and index2 < len(list2):
+    if list1[index1] < list2[index2]:
+        merged_list.append(list1[index1])
+        index1 += 1
+    else:
+        merged_list.append(list2[index2])
+        index2 += 1
+
+while index1 < len(list1):
+    merged_list.append(list1[index1])
+    index1 += 1
+
+while index2 < len(list2):
+    merged_list.append(list2[index2])
+    index2 += 1
+
+print(merged_list)
