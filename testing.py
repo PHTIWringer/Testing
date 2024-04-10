@@ -562,7 +562,7 @@ for i in range(1, 21):
         print("Buzz")
     else:
         print(i)
-'''
+
 
 #######################################################################################################################################################
 
@@ -576,3 +576,12 @@ for i in range(1, 21):
 
 # Each line centers the * characters, and the number of * characters on each line starts at 1 and increases by 2 each time, creating a centered pyramid shape.
 
+tree_height = int(input("Please enter a number for how tall you want your tree: "))
+
+for i in range(1, tree_height + 1):
+    spaces = tree_height - i
+    stars = 2 * i - 1
+    print(' ' * spaces + '*' * stars)
+'''
+
+#######################################################################################################################################################
