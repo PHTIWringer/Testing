@@ -565,3 +565,14 @@ for i in range(1, 21):
 '''
 
 #######################################################################################################################################################
+
+# Loop Challenge B: Write a Python script that creates a simple text-based pyramid. The pyramid should be built using the * character, and its height # should be provided by the user input. For instance, if the user inputs 5, the pyramid should look like this:
+
+#     *
+#    ***
+#   *****
+#  *******
+# *********
+
+# Each line centers the * characters, and the number of * characters on each line starts at 1 and increases by 2 each time, creating a centered pyramid shape.
+
