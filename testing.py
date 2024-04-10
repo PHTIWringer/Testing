@@ -585,3 +585,14 @@ for i in range(1, tree_height + 1):
 '''
 
 #######################################################################################################################################################
+
+# Loop Challenge C: Write a Python script that simulates a basic text-based version of the classic game "Hangman." Here are the guidelines:
+
+# Start with a predetermined word (e.g., "PYTHON") that the user needs to guess.
+# Display underscores (_) for each unguessed letter in the word (e.g., _ _ _ _ _ _ for "PYTHON").
+# Allow the user to input a single character as a guess for each turn.
+# If the guess is correct, reveal the character in its correct position(s) in the word.
+# The user has a limited number of incorrect guesses (e.g., 6). Keep track of the number of incorrect guesses and end the game if the limit is reached.
+# The game ends when the user either guesses all the letters correctly or runs out of incorrect guesses.
+# You don't need to implement any advanced features like choosing a random word, handling input errors, or drawing an actual hangman. Focus on the loop(s) to process the guesses and reveal the letters.
+
