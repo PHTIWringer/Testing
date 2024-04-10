@@ -542,3 +542,13 @@ sales_data = [
 
 # Calculates sales revenue per day: Show how much revenue was earned each day.
 
+
+
+#######################################################################################################################################################
+
+# Loop Challenge A: Create a Python script that prints all the numbers from 1 to 20, but with a twist. For each number:
+
+# If the number is divisible by 3, print "Fizz" instead of the number.
+# If the number is divisible by 5, print "Buzz" instead of the number.
+# If the number is divisible by both 3 and 5, print "FizzBuzz" instead of the number.
+
