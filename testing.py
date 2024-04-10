@@ -596,3 +596,10 @@ for i in range(1, tree_height + 1):
 # The game ends when the user either guesses all the letters correctly or runs out of incorrect guesses.
 # You don't need to implement any advanced features like choosing a random word, handling input errors, or drawing an actual hangman. Focus on the loop(s) to process the guesses and reveal the letters.
 
+word = "Kenneth"
+
+word_length = len(word)
+
+for i in range(1, word_length, + 1):
+    dashes = i * 1
+    print("_" * dashes)
